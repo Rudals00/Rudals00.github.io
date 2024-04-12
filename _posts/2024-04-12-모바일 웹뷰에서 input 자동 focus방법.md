@@ -5,7 +5,7 @@ categories: [Frontend Development]
 tags: [Web Components, webView]
 ---
 
-# 모바일 웹뷰에서 react로 input 자동 focus
+# React 모바일 웹뷰에서 react로 input 자동 focus
 
 모바일 환경에서 웹뷰를 띄워 검색버튼을 누르면 자동으로 input field에 focus가 가도록하여 os별 키보드 노출을 구현하고 싶었다.
 기존 웹 환경이었다면 useRef를 사용하여 로그인 화면일때 자동으로 id 입력창에 커서가 가게끔 했던 기억이 있어서 해당 방법으로 시도하였지만, 실패하였다.
@@ -15,10 +15,10 @@ tags: [Web Components, webView]
 
 ### useRef로 포커스 설정하기
 
-```
+```ts
 import React, { useEffect, useRef } from 'react';
 
-...ts
+...
 
 export const Search = () => {
   const dispatch = useDispatch();
