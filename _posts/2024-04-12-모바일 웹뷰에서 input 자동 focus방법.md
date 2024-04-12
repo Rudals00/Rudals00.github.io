@@ -1,8 +1,8 @@
 ---
 title: 모바일 웹뷰에서 input 자동 focus방법
 date: 2024-04-12 14:30:00 +09:00
-categories: [Frontend Development]
-tags: [Web Components, webView]
+categories: [프론트엔드]
+tags: [트러블슈팅, 웹뷰]
 ---
 
 # React 모바일 웹뷰에서 react로 input 자동 focus
@@ -23,11 +23,13 @@ import React, { useEffect, useRef } from 'react';
 export const Search = () => {
   const dispatch = useDispatch();
   const inputRef = useRef<HTMLInputElement>(null);
+
   useEffect(() => {
     if (inputRef.current) {
       inputRef.current.focus();
     }
   }, []);
+
   return (
     <StyledWrapper>
       <div className="search">
