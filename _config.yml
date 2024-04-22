@@ -14,12 +14,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 경민의 기술블로그 # the main title
+title: 경민의 개발일지 # the main title
 
-tagline: developement blog # it will display as the sub-title
+tagline: developer blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  기술 블로그입니다.
+  개발하면서 알게 된 새로운 내용을 기록하고, 많은 정보를 공유하고자 운영하는 블로그입니다.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -89,7 +89,7 @@ comments:
   active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname: "kyeongmin" # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo: # <gh-username>/<repo>
