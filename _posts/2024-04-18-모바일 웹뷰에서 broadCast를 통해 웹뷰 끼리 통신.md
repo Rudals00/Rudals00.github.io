@@ -1,5 +1,5 @@
 ---
-title: React 모바일 웹뷰에서 broadCast를 통해 웹뷰 끼리 통신
+title: React로 웹뷰 끼리 통신하는 방법
 date: 2024-04-18 12:30:00 +09:00
 categories: [프론트엔드, 인턴]
 tags: [트러블슈팅, 웹뷰]

@@ -1,5 +1,5 @@
 ---
-title: React 모바일 웹뷰에서 input 자동 focus방법
+title: React 웹뷰에서 input 자동 focus 하는 방법
 date: 2024-04-12 14:30:00 +09:00
 categories: [프론트엔드, 인턴]
 tags: [트러블슈팅, 웹뷰]
