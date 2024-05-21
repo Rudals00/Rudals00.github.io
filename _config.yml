@@ -14,7 +14,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 루달의 개발일지 # the main title
+title: 김경민 개발일지 # the main title
 
 tagline: developer blog # it will display as the sub-title
 
