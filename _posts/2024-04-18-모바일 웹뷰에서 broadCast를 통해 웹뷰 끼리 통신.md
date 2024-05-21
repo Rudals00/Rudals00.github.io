@@ -1,12 +1,8 @@
 ---
-title: React로 웹뷰 끼리 통신하는 방법
+title: React로 구현된 모바일용 웹뷰에서 broadCast로 통신
 date: 2024-04-18 12:30:00 +09:00
 categories: [프론트엔드, 인턴]
 tags: [트러블슈팅, 웹뷰]
----
-
-# React로 구현된 모바일용 웹뷰에서 broadCast로 통신
-
 ---
 
 웹뷰가 window.location.href를 사용해 열리기 때문에 router를 통한 네비게이션이 아니어서 독립적으로 작동하기 때문에 ,하나의 웹뷰에서 행동이 다른 웹뷰에 어떠한 영향을 미칠 때, 이를 효과적으로 감지하고 반응하는 것은 중요하다. 이러한 문제를 해결하기 위해 BroadcastChannel API를 사용할 수 있다.
